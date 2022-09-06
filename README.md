@@ -7,11 +7,6 @@
 
 **5개 MVP**로 구성됩니다.
 
-<<<<<<< HEAD
-=======
-> 현재는 USer MVP 코드만 있습니다.
-
->>>>>>> a3b6f0761a0cce86b92fccade5cafb2ce96f087b
 - User (회원가입, 로그인 등 사용자 관련)
 - Award (포트폴리오 중 상장 이력 관련)
 - Certificate (포트폴리오 중 자격증 관련)
