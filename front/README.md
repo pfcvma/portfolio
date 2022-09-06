@@ -46,3 +46,8 @@ yarn start
 - 각 Award 컴포넌트는 **isEditing 상태에 따라**, false면 AwardCard, true면 AwardEditForm이 됩니다.
 - **isEditable**(포트폴리오 소유자와 현재 로그인한 사용자가 일치할 때)이 true인 경우 편집 버튼이 생깁니다.
 - Awards는 **isAdding**이 true면 AwardAddForm, false면 그냥 Award들의 모음이 됩니다.
+
+---
+
+- 멋쟁이 코더처럼 피그마
+  https://www.figma.com/file/JpoCaOXFlCOvywjAfUHeHG/%EB%A9%8B%EC%9F%81%EC%9D%B4-%EC%BD%94%EB%8D%94%EC%B2%98%EB%9F%BC?node-id=0%3A1
