@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap');
+
+/* SectonMain */
+.sectionMain {
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+
+.sectionMain .MainImg {
+  margin: 80px 33px 33px 600px;
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.sectionMain .textBox {
+  position: absolute;
+  left: 140px;
+  top: 250px;
+}
+
+.sectionMain .title1 {
+  color: black;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+.sectionMain .title2 {
+  color: #868e96;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 30px;
+  margin-bottom: 90px;
+}
+
+/* LoginForm */
+.login {
+  /* position: absolute; */
+  width: 500px;
+  height: 491px;
+  border-radius: 50px;
+}
+
+/* Network */
+.homeUsers {
+  display: grid;
+  place-content: center;
+  grid-template-rows: repeat(3, minmax(300px, 350px));
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.homeUsers .homeUserCard {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 25px 0px;
+  border: none;
+  border-radius: 25px;
+}
+
+/* Portfolio */
+.mypage .name {
+  margin-top: 14px;
+  display: flex;
+}
+
+.mypage .backHomeBtn {
+  border: none;
+  background-color: #cfd3ff;
+  width: 50px;
+  height: 50px;
+  margin-top: 90px;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+  font-size: 30px;
+  color: white;
+}
+
+.mypage .backHomeImg {
+  width: 30px;
+  height: 30px;
+}
+
+.mypage .backHomeBtn:hover {
+  border: none;
+  background-color: #cfd3ff;
+  width: 50px;
+  height: 50px;
+  margin-top: 90px;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+.mypage .name h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900 bold;
+  width: auto;
+}
+
+.mypage .name .clickCount {
+  margin-left: 550px;
+  margin-top: 20px;
+  color: gray;
+  text-align: center;
+  font-weight: 600;
+  width: 70px;
+  height: 25px;
+  padding: 0px 2px;
+  background-color: #cfd3ff;
+}
+
+.mypage .name .clickCount {
+  margin-left: 650px;
+  margin-top: 20px;
+}
+
+.mypage .line {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  width: 1112px;
+  margin-bottom: 50px;
+}
+
+.mypage div {
+  /* neutral/gray light */
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.mypage .myPageCard {
+  width: 300px;
+  padding: 0px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.mypage .myPageCard p {
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+.mypage .user .user_button {
+  display: flex;
+}
+
+.mypage .myPageCard .user_button button {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #339af0;
+}
+
+.mypage .email,
+.mypage .introduce {
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+.mypage .projects,
+.mypage .educations,
+.mypage .awards,
+.mypage .certificates,
+.mypage .CareerSkill,
+.mypage .comments {
+  width: 1000px;
+  margin-bottom: 20px;
+  border: 1px #c7c8d2;
+}
+
+.portfolioTitle {
+  display: flex;
+}
+
+/* userCard Edit */
+
+.userCardEdit {
+  width: 300px;
+  padding: 0px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* modal */
+.loginModal {
+  width: 200px;
+}
+
+.modalTitle {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 100px;
+  font-weight: 900 bold;
+  padding-bottom: 20px;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  margin-right: 10px;
+  padding: 0px 5px;
+}
+
+.userEmail {
+  font-size: 17px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 0px 5px;
+}
+
+.homeUserCard .clickCount {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  width: 25px;
+  height: 25px;
+  padding: 0px 2px;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+
+.homeUserCard .clickHome {
+  width: 25px;
+  height: 25px;
+  padding: 0px 2px;
+}
+
+.networkBtn {
+  border-radius: 25px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: white;
+  margin-right: 12px;
+  padding: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.networkBtn:hover {
+  background-color: #a5d8ff;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: white;
+  margin-right: 12px;
+  padding: auto;
+  transform: scale(1.2);
+}
+
+/* SectionHome */
+.sectionHomeSelect {
+  display: flex;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+/* Nav */
+.navBtn1 {
+  outline: none;
+  box-shadow: none;
+  margin-right: 20px;
+  border: none;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navBtn1:hover {
+  outline: none;
+  box-shadow: none;
+  margin-right: 20px;
+  border: none;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 25px;
+  transform: scale(1.1);
+}
+
+.navBtn2 {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: #4dabf7;
+  padding: 5px 10px;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navBtn2:hover {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: #4dabf7;
+  padding: 5px 10px;
+  border-radius: 25px;
+  transform: scale(1.1);
+}
+
+.userCardBtn {
+  background-color: white;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: white;
+}
+
+.homeImg {
+  width: 15px;
+  height: 15px;
+  margin-left: 150px;
+}
+
+/* Network */
+.networkUserCard {
+  margin-bottom: 20px;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.networkUserCard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
