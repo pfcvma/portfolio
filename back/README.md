@@ -71,3 +71,17 @@ yarn start
 - src/middlewares:
   - jwt토큰을 다루는 미들웨어인 login_required.js
   - 학습 편의를 위해 일괄 http 400 코드로 에러를 변환하는 에러핸들러인 errorMiddleware.js
+    <<<<<<< HEAD
+    =======
+
+---
+
+- 포트폴리오 웹 서비스 예시
+  http://34.64.140.205/
+
+- 포트폴리오 웹 서비스 API 문서 예시
+  https://documenter.getpostman.com/view/19463141/UVsJwSZr#671cc36e-34a9-4b72-b56d-15e526f22e75
+
+- 멋쟁이 코더처럼 피그마
+  https://www.figma.com/file/JpoCaOXFlCOvywjAfUHeHG/%EB%A9%8B%EC%9F%81%EC%9D%B4-%EC%BD%94%EB%8D%94%EC%B2%98%EB%9F%BC?node-id=0%3A1
+  > > > > > > > a8c6079e0b395f81b3d6af2eea2198aa4123813e
