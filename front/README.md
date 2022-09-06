@@ -1,6 +1,3 @@
-### ++ 2022.03.17 기준 [프론트] award MVP, certificate MVP 작성 완료된 통합본입니다. 문의사항은 이자원에게 디스코드나 카톡으로 연락 주세요!
-##### ++ Award MVP 추가, 조회, 수정(편집) 기능 + Certificate MVP 추가, 조회, 수정(편집) 기능 구현
-### ++ 2022.03.20 기준 [프론트] award MVP, certificate MVP, education MVP, project MVP 작성 완료된 통합본입니다.
 # 포트폴리오 공유 서비스 프론트엔드 코드
 
 ## 실행 방법
