@@ -19,12 +19,12 @@
 
 - React (create-react-app으로 구현되었습니다.)
 - React Bootstrap
-- axios
+- Axios
 
 2. 백엔드
 
 - Express (nodemon, babel-node로 실행됩니다.)
-- Mongodb, Mongoose
+- MongoDB, Mongoose
 
 ## 설치 방법
 
